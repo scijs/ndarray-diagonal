@@ -32,8 +32,7 @@ tape('2D', function(t) {
                 [4, 5, 6],
                 [7, 8, 9]])
   var D = diag(M)
-
-
+  
   t.equals(D.shape[0], 3)
 
   t.equals(M.get(0,0), D.get(0))
